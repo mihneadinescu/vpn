@@ -1,0 +1,1 @@
+Built a desktop app with Electron and Node.js to detect untrusted Wi-Fi networks and automatically connect to a secure OpenVPN server. Designed a simple UI, integrated system-level commands, and implemented real-time network monitoring for improved security.
