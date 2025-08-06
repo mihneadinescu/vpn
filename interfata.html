@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+      background-color: #121212;
+      color: #E0E0E0;
+      font-family: Georgia,Times,Times New Roman,serif; 
+      text-align: center;
+      padding: 10px;
+    }
+
+    h2{
+        color: #E0E0E0;
+        font-weight: 100;
+    }
+
+    #wifi, #vpn{
+        margin: 15px;
+    }
+    #vpn{
+        padding-top: 100px;
+        font-size: 20px;
+    }
+    #wifi
+    {
+            padding-top: 100px;
+            font-size: 30px;
+    }
+    
+    button{
+        font-family: Georgia,Times,Times New Roman,serif; 
+        background-color: #822659;
+        color:#F0F0F0;
+        border: none;
+        padding: 14px 28px;
+        font-size: 14px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #004D61;
+    }
+    </style>
+</head>
+<body>
+<h2>VPN Auto-Connect Tool</h2>
+
+<div id="wifi">Checking Wi-Fi Network</div>
+<div id="vpn">VPN Status: Stand-by</div>
+
+<button onclick="manual()">Manual Connection</button>
+<button onclick="stop()">Disconnect</button>
+
+<script src="background.js"></script>
+</body>
+</html>
